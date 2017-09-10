@@ -10,6 +10,12 @@ namespace TOM_COM123_S2017_L8
     {
         static void Main(string[] args)
         {
+            var person = new Person("Ilgu", 44);
+            person.Talks();
+
+            var student = new Student("Lee", 42, "300851801");
+            student.Talks();
+            student.Studies();
         }
     }
 }
