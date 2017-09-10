@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TOM_COM123_S2017_L8
 {
-    class Student : Person
+    public class Student : Person
     {
         public string StudentId { get; set; }
 
